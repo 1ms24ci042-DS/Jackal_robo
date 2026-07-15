@@ -99,7 +99,10 @@ ros2 launch the-barn-challenge <launch_file>
 * **Last Updated**: July 15, 2026
 
 ## Contributors
-* Sankala Mahidhar (1ms24ci042-DS)
+* Dhanekula Sathwika
+* M Madhidhar
+* Reema Sree Harshini
+* Raji
 
 ## License
 Please check individual packages for license information.
