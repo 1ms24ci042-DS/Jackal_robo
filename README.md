@@ -4,7 +4,7 @@ This is a ROS 2 workspace for the Jackal robot, containing packages for control,
 
 ## Workspace Structure
 
-```
+```text
 jackal_ws/
 ├── src/                          # Source code directory
 │   ├── barn-applr/              # Barn Applicator package
@@ -26,32 +26,31 @@ jackal_ws/
 ## Key Packages
 
 ### Core Jackal Packages
-- **jackal**: Main robot packages including base controller and drivers
-- **jackal_control**: Control system for Jackal robot
-- **jackal_description**: URDF robot description files
-- **jackal_navigation**: Navigation stack and related configurations
-- **jackal_msgs**: Custom message definitions
-- **jackal_helper**: Helper utilities and tools
-- **jackal_tutorials**: Example and tutorial packages
+* **jackal**: Main robot packages including base controller and drivers
+* **jackal_control**: Control system for Jackal robot
+* **jackal_description**: URDF robot description files
+* **jackal_navigation**: Navigation stack and related configurations
+* **jackal_msgs**: Custom message definitions
+* **jackal_helper**: Helper utilities and tools
+* **jackal_tutorials**: Example and tutorial packages
 
 ### Navigation & Planning
-- **eband_local_planner**: E-Band elastic band local planner for path planning
+* **eband_local_planner**: E-Band elastic band local planner for path planning
 
 ### Simulation & Visualization
-- **jackal_simulator**: Gazebo simulation environment
-- **jackal_desktop**: RViz configurations and visualization tools
+* **jackal_simulator**: Gazebo simulation environment
+* **jackal_desktop**: RViz configurations and visualization tools
 
 ### Projects
-- **barn-applr**: Barn application package
-- **the-barn-challenge**: The Barn Challenge implementation
-- **The-Barn-Challenge-Ros2**: ROS 2 version of Barn Challenge
+* **barn-applr**: Barn application package
+* **the-barn-challenge**: The Barn Challenge implementation
+* **The-Barn-Challenge-Ros2**: ROS 2 version of Barn Challenge
 
 ## Prerequisites
-
-- ROS 2 (Humble or compatible version)
-- Colcon build system
-- Gazebo simulator (for simulation)
-- RViz (for visualization)
+* ROS 2 (Humble or compatible version)
+* Colcon build system
+* Gazebo simulator (for simulation)
+* RViz (for visualization)
 
 ## Building
 
@@ -95,32 +94,28 @@ ros2 launch the-barn-challenge <launch_file>
 ```
 
 ## Repository Information
-
-- **Repository**: https://github.com/1ms24ci042-DS/Jackal_robo.git
-- **Branch**: main
-- **Last Updated**: July 15, 2026
+* **Repository**: https://github.com/1ms24ci042-DS/Jackal_robo.git
+* **Branch**: main
+* **Last Updated**: July 15, 2026
 
 ## Contributors
-
-- Sankala Mahidhar (1ms24ci042-DS)
+* Sankala Mahidhar (1ms24ci042-DS)
 
 ## License
-
 Please check individual packages for license information.
 
 ## Notes
-
-- This workspace uses ROS 2 with colcon build system
-- The workspace includes both simulation and real robot packages
-- Refer to individual package README files for detailed documentation
-- Build artifacts (build/, devel/, install/) are generated during compilation
+* This workspace uses ROS 2 with colcon build system
+* The workspace includes both simulation and real robot packages
+* Refer to individual package README files for detailed documentation
+* Build artifacts (build/, devel/, install/) are generated during compilation
 
 ## Troubleshooting
 
 If you encounter build issues:
-1. Ensure ROS 2 is properly installed and sourced
-2. Run `colcon clean` to clean build artifacts
-3. Delete build/, devel/, and install/ directories and rebuild
-4. Check package dependencies with `rosdep install --from-paths src --ignore-src -r -y`
+* Ensure ROS 2 is properly installed and sourced
+* Run `colcon clean` to clean build artifacts
+* Delete `build/`, `devel/`, and `install/` directories and rebuild
+* Check package dependencies with `rosdep install --from-paths src --ignore-src -r -y`
 
-For more information, visit the [Jackal documentation](https://www.clearpathrobotics.com/jackal-user-manual/) or refer to individual package documentation.
+For more information, visit the Jackal documentation or refer to individual package documentation.
