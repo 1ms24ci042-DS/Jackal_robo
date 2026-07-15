@@ -1,0 +1,40 @@
+[0.026s] Invoking command in '/home/sankala-mahidhar/jackal_ws/build/jackal_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sankala-mahidhar/jackal_ws/src/jackal/jackal_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/sankala-mahidhar/jackal_ws/install/jackal_control
+[0.038s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.038s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.038s]   CMake.
+[0.038s] 
+[0.038s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.038s]   CMake that the project does not need compatibility with older versions.
+[0.038s] 
+[0.038s] 
+[0.088s] -- The C compiler identification is GNU 13.3.0
+[0.153s] -- The CXX compiler identification is GNU 13.3.0
+[0.170s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.265s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.274s] -- Detecting CXX compiler ABI info
+[0.366s] -- Detecting CXX compiler ABI info - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.376s] -- Detecting CXX compile features
+[0.377s] -- Detecting CXX compile features - done
+[0.392s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.392s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.392s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.392s]   CMake did not find one.
+[0.392s] 
+[0.392s]   Could not find a package configuration file provided by "catkin" with any
+[0.392s]   of the following names:
+[0.392s] 
+[0.392s]     catkinConfig.cmake
+[0.392s]     catkin-config.cmake
+[0.392s] 
+[0.392s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.392s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.393s]   provides a separate development package or SDK, be sure it has been
+[0.393s]   installed.
+[0.393s] 
+[0.393s] 
+[0.393s] -- Configuring incomplete, errors occurred!
+[0.398s] Invoked command in '/home/sankala-mahidhar/jackal_ws/build/jackal_control' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sankala-mahidhar/jackal_ws/src/jackal/jackal_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/sankala-mahidhar/jackal_ws/install/jackal_control

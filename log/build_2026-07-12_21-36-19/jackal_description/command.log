@@ -1,0 +1,1 @@
+Invoking command in '/home/sankala-mahidhar/jackal_ws/build/jackal_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sankala-mahidhar/jackal_ws/src/jackal/jackal_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/sankala-mahidhar/jackal_ws/install/jackal_description

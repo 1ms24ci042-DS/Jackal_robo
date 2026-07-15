@@ -1,0 +1,343 @@
+[0.085s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'jackal_helper', '--symlink-install']
+[0.085s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['jackal_helper'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c66d4d69700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c66d4e8e600>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c66d4e8e600>>)
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.119s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sankala-mahidhar/jackal_ws'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(devel) ignored
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/jackal_helper) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/jackal_helper) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/jackal_helper) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/jackal_helper) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/jackal_helper) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/jackal_helper) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/jackal_helper) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/jackal_helper) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/jackal_helper) by extension 'ros'
+[0.147s] DEBUG:colcon.colcon_core.package_identification:Package 'src/The-Barn-Challenge-Ros2/jackal_helper' with type 'ros.ament_cmake' and name 'jackal_helper'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extension 'ros'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extensions ['cmake', 'python']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extension 'cmake'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extension 'python'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extensions ['python_setup_py']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/The-Barn-Challenge-Ros2/res) by extension 'python_setup_py'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/barn-applr) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/barn-applr) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/barn-applr) ignored
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/eband_local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/eband_local_planner) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eband_local_planner) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eband_local_planner) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eband_local_planner) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eband_local_planner) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eband_local_planner) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eband_local_planner) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/eband_local_planner) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eband_local_planner' with type 'ros.catkin' and name 'eband_local_planner'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_control' with type 'ros.catkin' and name 'jackal_control'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_description' with type 'ros.catkin' and name 'jackal_description'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_msgs' with type 'ros.catkin' and name 'jackal_msgs'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_navigation' with type 'ros.catkin' and name 'jackal_navigation'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_tutorials) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_tutorials) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_tutorials) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_tutorials) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_tutorials) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_tutorials) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_tutorials) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_tutorials) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_tutorials' with type 'ros.catkin' and name 'jackal_tutorials'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal_desktop/jackal_desktop' with type 'ros.catkin' and name 'jackal_desktop'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal_desktop/jackal_viz' with type 'ros.catkin' and name 'jackal_viz'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal_simulator/jackal_gazebo' with type 'ros.catkin' and name 'jackal_gazebo'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal_simulator/jackal_simulator' with type 'ros.catkin' and name 'jackal_simulator'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/the-barn-challenge) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/the-barn-challenge) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/the-barn-challenge) ignored
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.174s] DEBUG:colcon.colcon_core.package_augmentation.check_dependency_constraint:jackal_simulator depends on jackal_gazebo which has version 0.4.0 which satisfies to be greater than or equal to 0.3
+[0.175s] DEBUG:colcon.colcon_core.package_augmentation.check_dependency_constraint:jackal_gazebo depends on jackal_control which has version 0.7.9 which satisfies to be greater than or equal to 0.5
+[0.175s] DEBUG:colcon.colcon_core.package_augmentation.check_dependency_constraint:jackal_gazebo depends on jackal_description which has version 0.7.9 which satisfies to be greater than or equal to 0.5
+[0.175s] DEBUG:colcon.colcon_core.package_augmentation.check_dependency_constraint:jackal_viz depends on jackal_description which has version 0.7.9 which satisfies to be greater than or equal to 0.5
+[0.175s] DEBUG:colcon.colcon_core.package_augmentation.check_dependency_constraint:jackal_desktop depends on jackal_viz which has version 0.4.1 which satisfies to be greater than or equal to 0.3.1
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'eband_local_planner' in 'src/eband_local_planner'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_control' in 'src/jackal/jackal_control'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_description' in 'src/jackal/jackal_description'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_msgs' in 'src/jackal/jackal_msgs'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_navigation' in 'src/jackal/jackal_navigation'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_tutorials' in 'src/jackal/jackal_tutorials'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_gazebo' in 'src/jackal_simulator/jackal_gazebo'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_viz' in 'src/jackal_desktop/jackal_viz'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_desktop' in 'src/jackal_desktop/jackal_desktop'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_simulator' in 'src/jackal_simulator/jackal_simulator'
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 391 installed packages in /opt/ros/jazzy
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'jackal_helper' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'jackal_helper' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'jackal_helper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'jackal_helper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'jackal_helper' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'jackal_helper' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'jackal_helper' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'jackal_helper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'jackal_helper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_helper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sankala-mahidhar/jackal_ws/build/jackal_helper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sankala-mahidhar/jackal_ws/install/jackal_helper', 'merge_install': False, 'path': '/home/sankala-mahidhar/jackal_ws/src/The-Barn-Challenge-Ros2/jackal_helper', 'symlink_install': True, 'test_result_base': None}
+[0.221s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.222s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sankala-mahidhar/jackal_ws/src/The-Barn-Challenge-Ros2/jackal_helper' with build type 'ament_cmake'
+[0.222s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sankala-mahidhar/jackal_ws/src/The-Barn-Challenge-Ros2/jackal_helper'
+[0.224s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sankala-mahidhar/jackal_ws/build/jackal_helper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sankala-mahidhar/jackal_ws/build/jackal_helper -- -j16 -l16
+[0.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sankala-mahidhar/jackal_ws/build/jackal_helper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sankala-mahidhar/jackal_ws/build/jackal_helper -- -j16 -l16
+[0.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sankala-mahidhar/jackal_ws/build/jackal_helper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sankala-mahidhar/jackal_ws/build/jackal_helper
+[6.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_helper)
+[6.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sankala-mahidhar/jackal_ws/build/jackal_helper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sankala-mahidhar/jackal_ws/build/jackal_helper
+[6.028s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper' for CMake module files
+[6.028s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper' for CMake config files
+[6.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_helper', 'cmake_prefix_path')
+[6.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/hook/cmake_prefix_path.ps1'
+[6.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/hook/cmake_prefix_path.dsv'
+[6.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/hook/cmake_prefix_path.sh'
+[6.030s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/lib'
+[6.031s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/bin'
+[6.031s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/lib/pkgconfig/jackal_helper.pc'
+[6.031s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/lib/python3.12/site-packages'
+[6.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_helper', 'pythonpath')
+[6.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/hook/pythonpath.ps1'
+[6.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/hook/pythonpath.dsv'
+[6.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/hook/pythonpath.sh'
+[6.032s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/bin'
+[6.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/package.ps1'
+[6.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/package.dsv'
+[6.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/package.sh'
+[6.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/package.bash'
+[6.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/package.zsh'
+[6.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/colcon-core/packages/jackal_helper)
+[6.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_helper)
+[6.035s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper' for CMake module files
+[6.036s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper' for CMake config files
+[6.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_helper', 'cmake_prefix_path')
+[6.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/hook/cmake_prefix_path.ps1'
+[6.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/hook/cmake_prefix_path.dsv'
+[6.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/hook/cmake_prefix_path.sh'
+[6.037s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/lib'
+[6.037s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/bin'
+[6.037s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/lib/pkgconfig/jackal_helper.pc'
+[6.038s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/lib/python3.12/site-packages'
+[6.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_helper', 'pythonpath')
+[6.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/hook/pythonpath.ps1'
+[6.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/hook/pythonpath.dsv'
+[6.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/hook/pythonpath.sh'
+[6.039s] Level 1:colcon.colcon_core.environment:checking '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/bin'
+[6.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/package.ps1'
+[6.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/package.dsv'
+[6.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/package.sh'
+[6.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/package.bash'
+[6.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/jackal_helper/package.zsh'
+[6.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sankala-mahidhar/jackal_ws/install/jackal_helper/share/colcon-core/packages/jackal_helper)
+[6.043s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.044s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.049s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.050s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.065s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.065s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sankala-mahidhar/jackal_ws/install/local_setup.ps1'
+[6.066s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sankala-mahidhar/jackal_ws/install/_local_setup_util_ps1.py'
+[6.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sankala-mahidhar/jackal_ws/install/setup.ps1'
+[6.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sankala-mahidhar/jackal_ws/install/local_setup.sh'
+[6.069s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sankala-mahidhar/jackal_ws/install/_local_setup_util_sh.py'
+[6.069s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sankala-mahidhar/jackal_ws/install/setup.sh'
+[6.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sankala-mahidhar/jackal_ws/install/local_setup.bash'
+[6.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sankala-mahidhar/jackal_ws/install/setup.bash'
+[6.072s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sankala-mahidhar/jackal_ws/install/local_setup.zsh'
+[6.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sankala-mahidhar/jackal_ws/install/setup.zsh'

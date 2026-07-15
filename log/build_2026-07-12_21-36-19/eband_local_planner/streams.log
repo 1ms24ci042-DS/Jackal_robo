@@ -1,0 +1,39 @@
+[0.023s] Invoking command in '/home/sankala-mahidhar/jackal_ws/build/eband_local_planner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sankala-mahidhar/jackal_ws/src/eband_local_planner -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/sankala-mahidhar/jackal_ws/install/eband_local_planner
+[0.032s] CMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+[0.033s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.033s]   CMake.
+[0.033s] 
+[0.033s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.033s]   CMake that the project does not need compatibility with older versions.
+[0.033s] 
+[0.033s] 
+[0.085s] -- The C compiler identification is GNU 13.3.0
+[0.157s] -- The CXX compiler identification is GNU 13.3.0
+[0.173s] -- Detecting C compiler ABI info
+[0.257s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.267s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.278s] -- Detecting CXX compiler ABI info
+[0.382s] -- Detecting CXX compiler ABI info - done
+[0.393s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.393s] -- Detecting CXX compile features
+[0.394s] -- Detecting CXX compile features - done
+[0.410s] CMake Error at CMakeLists.txt:5 (find_package):
+[0.410s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.410s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.410s]   CMake did not find one.
+[0.411s] 
+[0.411s]   Could not find a package configuration file provided by "catkin" with any
+[0.411s]   of the following names:
+[0.411s] 
+[0.411s]     catkinConfig.cmake
+[0.411s]     catkin-config.cmake
+[0.411s] 
+[0.411s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.411s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.411s]   provides a separate development package or SDK, be sure it has been
+[0.411s]   installed.
+[0.412s] 
+[0.412s] 
+[0.412s] -- Configuring incomplete, errors occurred!

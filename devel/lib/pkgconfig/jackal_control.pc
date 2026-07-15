@@ -1,0 +1,8 @@
+prefix=/jackal_ws/devel
+
+Name: jackal_control
+Description: Description of jackal_control
+Version: 0.7.9
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,39 @@
+[0.033s] Invoking command in '/home/sankala-mahidhar/jackal_ws/build/jackal_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sankala-mahidhar/jackal_ws/src/jackal/jackal_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/sankala-mahidhar/jackal_ws/install/jackal_description
+[0.043s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.044s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.045s]   CMake.
+[0.045s] 
+[0.045s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.045s]   CMake that the project does not need compatibility with older versions.
+[0.045s] 
+[0.046s] 
+[0.097s] -- The C compiler identification is GNU 13.3.0
+[0.156s] -- The CXX compiler identification is GNU 13.3.0
+[0.172s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.270s] -- Detecting C compile features
+[0.271s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.387s] -- Detecting CXX compiler ABI info - done
+[0.403s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.403s] -- Detecting CXX compile features
+[0.404s] -- Detecting CXX compile features - done
+[0.420s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.421s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.421s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.422s]   CMake did not find one.
+[0.422s] 
+[0.422s]   Could not find a package configuration file provided by "catkin" with any
+[0.422s]   of the following names:
+[0.423s] 
+[0.423s]     catkinConfig.cmake
+[0.423s]     catkin-config.cmake
+[0.424s] 
+[0.424s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.424s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.424s]   provides a separate development package or SDK, be sure it has been
+[0.424s]   installed.
+[0.424s] 
+[0.424s] 
+[0.425s] -- Configuring incomplete, errors occurred!
