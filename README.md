@@ -100,9 +100,10 @@ ros2 launch the-barn-challenge <launch_file>
 
 ## Contributors
 * Dhanekula Sathwika
-* M Madhidhar
+* S Madhidhar
 * Reema Sree Harshini
 * Raji
+* Manish
 
 ## License
 Please check individual packages for license information.
