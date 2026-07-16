@@ -1,6 +1,16 @@
 # Jackal Workspace (jackal_ws)
 
-This is a ROS 2 workspace for the Jackal robot, containing packages for control, navigation, simulation, and related utilities.
+This workspace contains packages for control, navigation, simulation, and related utilities.
+
+> [!IMPORTANT]
+> **SUBMISSION REFERENCE (ROS 1)**
+> * **ROS Version:** ROS 1 Melodic (Ubuntu 18.04 container)
+> * **Submission Launch Point:** `run.py` (points to E-Band local planner via `move_base_EBAND.launch`)
+> * **Final Validated Metric Score:** **0.4063** (from a 90-run stratified sample: worlds 0, 30, 60, 120, 150, 180, 210, 240, 270 x 10 runs each)
+> * **Testing Command:** `./singularity_run.sh nav_competition_image.sif python3 run.py --world_idx 0`
+> * For full details, see the [SUBMISSION_NOTES.md](file:///home/sankala-mahidhar/jackal_ws/src/the-barn-challenge/SUBMISSION_NOTES.md) file included in the package.
+
+This repository contains a rigorously optimized, high-performance classical navigation stack for the **Clearpath Jackal UGV**, designed for the **ICRA BARN (Benchmark Autonomous Robot Navigation)** Challenge.
 
 ## Workspace Structure
 
